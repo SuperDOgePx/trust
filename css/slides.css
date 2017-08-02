@@ -1,7 +1,7 @@
 @font-face{
-	font-family: 'FuturaHandwritten';
+	font-family: 'PatrickHand';
 	font-style: normal;
-	src: url('FuturaHandwritten.ttf') format('truetype');
+	src: url('PatrickHand-Regular.ttf') format('truetype');
 }
 
 html,body{
@@ -16,7 +16,7 @@ body{
 
 	background: #fff;
 
-	font-family: 'FuturaHandwritten';
+	font-family: 'PatrickHand';
 	color: #333;
 	font-size: 20px;
 
