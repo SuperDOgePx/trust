@@ -241,7 +241,7 @@ SLIDES.push({
 		var y = 175;
 		var dy = 70;
 		self.add({
-			id:"playButton", type:"Button", size:"short",
+			id:"playButton", type:"Button", size:"medium",
 			x:x, y:y, text_id:"label_start",
 			onclick: function(){
 				if(o.tournament.isAutoPlaying){
@@ -258,11 +258,11 @@ SLIDES.push({
 			o.playButton.setText("label_stop");
 		});
 		self.add({
-			id:"stepButton", type:"Button",  size:"short",
+			id:"stepButton", type:"Button",  size:"medium",
 			x:x, y:y+dy, text_id:"label_step", message:"tournament/step"
 		});
 		self.add({
-			id:"resetButton", type:"Button", size:"short",
+			id:"resetButton", type:"Button", size:"medium",
 			x:x, y:y+dy*2, text_id:"label_reset", message:"tournament/reset"
 		});
 
@@ -489,7 +489,7 @@ SLIDES.push({
 			});
 			self.add({
 				id:"continueButton", type:"Button",
-				x:855, y:440, size:"short",
+				x:855, y:440, size:"medium",
 				text_id:"label_continue",
 				message: "slideshow/next"
 			});
