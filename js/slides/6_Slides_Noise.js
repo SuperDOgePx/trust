@@ -237,7 +237,7 @@ SLIDES.push({
 		// BUTTONS for playing //////////////////
 		/////////////////////////////////////////
 
-		var x = 172;
+		var x = 136;
 		var y = 175;
 		var dy = 70;
 		self.add({
